@@ -1,0 +1,18 @@
+{
+  "name": "client",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel watch src/index.js --dist-dir ../server/public",
+    "start": "npx parcel build src/index.js --dist-dir ../server/public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
