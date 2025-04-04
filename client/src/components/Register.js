@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Register.css";
 
-const API_URL = "http://localhost:3000/api/v1";
+const API_URL = "/api/v1";
 
 // Component that handles new user registration with username and email
 const Register = (props) => {

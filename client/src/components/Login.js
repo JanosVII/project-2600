@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Login.css";
-const API_URL = "http://localhost:3000/api/v1";
+const API_URL = "/api/v1";
 
 // Component that handles user login through email-only authentication
 const Login = (props) => {

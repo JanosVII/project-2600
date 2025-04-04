@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./FruitCard.css";
-const API_URL = "http://localhost:3000/api/v1";
+const API_URL = "/api/v1";
 const FruitCard = (props) => {
   const [showDetails, setShowDetails] = useState(false);
   const [error, setError] = useState(null);

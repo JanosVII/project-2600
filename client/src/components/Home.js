@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import FruitCard from "./FruitCard.js";
 import "./Home.css";
 
-const API_URL = "http://localhost:3000/api/v1";
+const API_URL = "/api/v1";
 const Home = () => {
   const [featuredFruits, setFeaturedFruits] = useState([]);
   const [loading, setLoading] = useState(true);
