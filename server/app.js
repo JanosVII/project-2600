@@ -6,7 +6,7 @@ import userRoutes from "./routes/userRoutes.js";
 import { initializeFruits } from "./controllers/fruitController.js";
 import fruitsData from "./data/fruits.js";
 const app = express();
-const PORT = 3000; // Default is PORT 3000 , please DO NOT CHANGE this value (client side is using this value for API calls)
+const PORT = 3000; // Default is PORT 3000 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
