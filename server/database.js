@@ -1,7 +1,7 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
 
 // Creates MongoDB client using connection string from environment variables
-const client = new MongoClient(process.env.CONNECTION_STRING, {
+const client = new MongoClient(process.env.CONNECTION, {
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
